@@ -1,0 +1,30 @@
+.front-page {
+  width: 100%;  
+}
+
+.front-page:after {
+  clear:both;
+  display: block;
+  content:"";
+}
+
+.front-page-left {
+  width: 100%;
+  overflow: hidden;
+}
+
+.front-page-right {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .front-page-left {
+    width: 55%;
+    float: left;
+  }
+  .front-page-right {
+    width: 42%;
+    margin-left: 3%;
+    float: right;
+  }
+}
